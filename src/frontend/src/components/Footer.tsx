@@ -1,9 +1,19 @@
-import { SiInstagram, SiLinkedin, SiX } from "react-icons/si";
+import {
+  SiFacebook,
+  SiGoogle,
+  SiInstagram,
+  SiReddit,
+  SiX,
+  SiYoutube,
+} from "react-icons/si";
 
 const socialLinks = [
   { Icon: SiInstagram, label: "Instagram", href: "https://instagram.com" },
-  { Icon: SiX, label: "X", href: "https://x.com" },
-  { Icon: SiLinkedin, label: "LinkedIn", href: "https://linkedin.com" },
+  { Icon: SiFacebook, label: "Facebook", href: "https://facebook.com" },
+  { Icon: SiX, label: "Twitter", href: "https://x.com" },
+  { Icon: SiYoutube, label: "YouTube", href: "https://youtube.com" },
+  { Icon: SiGoogle, label: "Google", href: "https://google.com" },
+  { Icon: SiReddit, label: "Reddit", href: "https://reddit.com" },
 ];
 
 const serviceLinks = [

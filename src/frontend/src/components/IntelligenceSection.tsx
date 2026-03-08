@@ -1,8 +1,9 @@
 import { Cpu, Globe, Shield } from "lucide-react";
 import { motion } from "motion/react";
 import {
+  SiFacebook,
+  SiGoogle,
   SiInstagram,
-  SiLinkedin,
   SiReddit,
   SiX,
   SiYoutube,
@@ -10,9 +11,10 @@ import {
 
 const platforms = [
   { Icon: SiInstagram, name: "Instagram", color: "oklch(0.75 0.2 340)" },
-  { Icon: SiX, name: "X / Twitter", color: "oklch(0.85 0.01 250)" },
-  { Icon: SiLinkedin, name: "LinkedIn", color: "oklch(0.65 0.18 225)" },
+  { Icon: SiFacebook, name: "Facebook", color: "oklch(0.60 0.18 245)" },
+  { Icon: SiX, name: "Twitter", color: "oklch(0.85 0.01 250)" },
   { Icon: SiYoutube, name: "YouTube", color: "oklch(0.65 0.22 25)" },
+  { Icon: SiGoogle, name: "Google", color: "oklch(0.68 0.20 140)" },
   { Icon: SiReddit, name: "Reddit", color: "oklch(0.68 0.22 40)" },
 ];
 
@@ -25,7 +27,7 @@ const advantages = [
   {
     Icon: Globe,
     title: "Cross-Platform Coverage",
-    desc: "Unified view across 5+ major platforms — Instagram, X, LinkedIn, YouTube, Reddit.",
+    desc: "Unified view across 6+ major platforms — Instagram, Facebook, Twitter, YouTube, Google, Reddit.",
   },
   {
     Icon: Shield,

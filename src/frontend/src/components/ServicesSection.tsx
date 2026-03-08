@@ -20,7 +20,7 @@ const services = [
     title: "Brand Sentiment Analysis",
     subtitle: "Know what the internet says about you",
     description:
-      "Know exactly what people are saying about your brand across Instagram, X, LinkedIn, and more. Real-time scraped data, zero guesswork — track sentiment shifts before they become crises.",
+      "Know exactly what people are saying about your brand across Instagram, Facebook, Twitter, YouTube, and more. Real-time scraped data, zero guesswork — track sentiment shifts before they become crises.",
     tags: ["Real-time Scraping", "Sentiment Score", "Alert System"],
     accent: "290",
     accentL: "0.65",
